@@ -1,4 +1,4 @@
-const apiKey = config.api_key_gpt;
+const apiKey = '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';
 const endpoint = "https://api.openai.com/v1/chat/completions";
 
 async function sendMessage() {

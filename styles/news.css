@@ -4,9 +4,6 @@
 #newsButton {
   background-color: var(--TeensTeachBlue);
 }
-*{
-  overflow: hidden;
-}
 .articleText {
   font-family: "Courier New";
   font-size: 30px;
@@ -73,6 +70,7 @@ hr {
   justify-content: space-around;
   margin-bottom: 10px;
   margin-top: 10px;
+  overflow: visible;
 }
 #bottomContainer p {
   font-family: "Comfortaa", cursive;
@@ -112,7 +110,7 @@ hr {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.mainContainer{
+.mainContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;

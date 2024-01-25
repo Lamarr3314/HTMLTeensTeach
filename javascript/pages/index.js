@@ -4,7 +4,7 @@ let factButton = document.getElementById("factButton");
 
 let options = {
   method: "GET",
-  headers: { "x-api-key": config.api_key_fact },
+  headers: { "x-api-key": '9Gwn7h3VKEWk7Nc+JZOtpQ==oTi9WeeDiiIxWFDv' },
 };
 
 let url = "https://api.api-ninjas.com/v1/facts?limit=1";

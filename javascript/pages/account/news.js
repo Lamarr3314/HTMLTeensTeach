@@ -88,7 +88,7 @@ let getNews = (interest) => {
     "https://newsapi.org/v2/top-headlines?q=" +
     interest +
     "&sortBy=publishedAt&language=en&apiKey=" +
-    config.api_key_news;
+    '4b055913321e4c73bd0cb7028d9644e3';
   fetch(url, options)
     .then((response) => response.json())
     .then((data) => loopNews(data));
